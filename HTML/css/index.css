@@ -1,0 +1,29 @@
+.corpo{
+    min-height: calc(100vh - 120px);
+}
+
+.titulo{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo div{
+    color: #fff;
+    font-size: 25px;
+}
+.titulo p{
+    color: #fff;
+    font-size: 18px;
+}
+
+a{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+    background-color: #ccc;
+    text-align: center;
+    text-decoration: none;
+}

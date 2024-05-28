@@ -1,0 +1,38 @@
+.corpo{
+    min-height: calc(100vh - 120px);
+}
+
+.titulo{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo div{
+    color: #fff;
+    font-size: 25px;
+}
+.titulo p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.section{
+    width: calc(100vw - 40px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 23px;
+    margin: 0 15px 20px 20px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    margin-bottom: 15px;
+}
+.espaco{
+    text-indent: 30px;
+}

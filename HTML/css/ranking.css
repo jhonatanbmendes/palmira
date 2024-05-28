@@ -1,0 +1,39 @@
+.corpo{
+    height: calc(100vh - 120px);
+}
+
+.titulo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo div{
+    font-size: 25px;
+    color: #fff;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+
+}
+.botao{
+    display: block;
+    background-color: #eee;
+    color: #000;
+    width: calc(100vw - 80px);
+    margin: 20px 40px 0 40px;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 0;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    text-decoration: none;
+}
+.botao:hover{
+    text-decoration: none;
+    border: 1px solid #fff;
+    background-color: #3385FF;
+    color: #fff;
+}

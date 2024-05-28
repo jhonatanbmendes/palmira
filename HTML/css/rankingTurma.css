@@ -1,0 +1,66 @@
+.corpo{
+    min-height: calc(100vh - 150px);
+}
+
+.titulo{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo div{
+    color: #fff;
+    font-size: 25px;
+}
+.titulo p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.busca{
+    margin: auto;
+}
+.busca select{
+    width: calc(100vw - 60px);
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    outline: none;
+} 
+/* .busca input{
+    width: calc(100vw - 40px);
+    color: #fff;
+    font-size: 20px;
+    margin: 0 15px 20px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+} */
+.item{
+    width: calc(100vw - 40px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 23px;
+    margin: 0 20px 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+.nome{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
