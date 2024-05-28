@@ -1,0 +1,21 @@
+.corpo{
+    height: calc(100vh - 120px);
+}
+
+.titulo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo div{
+    font-size: 25px;
+    color: #fff;
+}
+
+.leitor{
+    margin: 0 15px 15px 15px;
+    width: calc(100vw - 30px);
+    height: calc(100vh - 250px);
+    background-color: #000;
+}

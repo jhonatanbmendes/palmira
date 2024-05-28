@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Carteira</title>
+    <link rel="stylesheet" href="../public/css/carteira.css">
+    <script src="../public/js/qrcode.min.js"></script>
+</head>
+<body>
+
+    <!-- <header>
+        <div class="escola">Palmira Gamificada</div>
+    </header>
+    <div>
+        <div class="nome">Jhonatan Barbosa Mendes</div>
+        <div class="turma">2º ano A</div>
+        <div id="qrcode"></div>
+    </div>
+    <footer>
+        <div class="rodape">Escola Municipal Palmira de Castro Machado</div>
+    </footer> -->
+
+
+    <h3 id="nome"></h3>
+    <div id="qrcode" style="width: 120px; height: 120px;"></div>
+
+    <script>
+        let pessoa = "Jhonatan B. Mendes";
+
+        document.getElementById('nome').innerHTML = pessoa;
+
+        new QRCode(document.getElementById("qrcode"), pessoa);
+
+    </script>
+</body>
+</html>

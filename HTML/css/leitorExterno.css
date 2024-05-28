@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    background-color: #3385FF;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #fff;
+    height: 60px;
+}
+.cabecalho div{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.corpo{
+    height: calc(100vh - 120px);
+}
+.tituloEspecial{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloEspecial div{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: underline;
+}
+.leitor{
+    margin: 0 15px 15px 15px;
+    width: calc(100vw - 30px);
+    height: calc(100vh - 195px);
+    background-color: #000;
+}

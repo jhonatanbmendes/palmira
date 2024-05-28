@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    background-color: #3385FF;
+}
+.cabecalho{
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 10px;
+}
+.tituloMenu{
+    font-size: 27px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.menu{
+    width: 45px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu div{
+    height: 5px;
+    background-color: #fff;
+}
+
